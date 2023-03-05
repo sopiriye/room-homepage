@@ -1,0 +1,169 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+  font-family: var(--font_style);
+}
+
+#left_top{
+  background-image: url(images/desktop-image-hero-1.jpg); 
+  min-width: 64.55%;
+  height: 780px;
+  background-repeat: no-repeat;  
+  background-size: cover; 
+  
+}
+ 
+#head_nav{
+    display: flex;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.link{
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: -0.05em;
+  margin-right: 25px;
+  font-size: 14;
+  
+}
+
+#logo{
+  margin: 55px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#first_sec{
+    display: flex;
+}
+
+#right_top{
+  min-width: 35.45%;
+  /* padding: 75px; */
+  position: relative;
+}
+
+#shopnow{
+  letter-spacing: 0.8em;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#shoplink{
+  /* position: relative; */
+  /* bottom: 50px; */
+  
+}
+
+#inner-right{
+  /* padding: 100px; */
+  margin-bottom: 25px;
+
+}
+
+#h1{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#para{
+  color: var(--dark_grey);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+/* .angle{
+ background-color: var(--black);
+ width: 40px;
+ height: 60px;
+ padding: 5px;
+} */
+
+.a-left{
+  background-color: black;
+  width: 63px;
+  height: 64px;
+  position: relative;
+}
+
+#angle{
+  display: flex;
+  position: relative;
+  top: 521px;
+  right: 0px;
+}
+
+#inner{
+  /* padding: 75px; */
+  /* width: 323px;
+  position: relative;
+  top: 209px;
+  left: 192px; */
+}
+
+
+#h4{
+  letter-spacing: 0.7em;
+  margin-bottom: 10px;
+}
+
+#about{
+line-height: 1.3;
+}
+
+#section-below{
+  display: flex;
+  position: relative;
+  height: 266px;
+}
+
+#About{
+  padding: 10px 20px 30px 40px;
+  min-width: 50%;
+  position: relative;
+  right: 0px;
+}
+
+.down-img{
+  min-width: 23%;
+  background-image: url(images/image-about-light.jpg);
+  background-size: cover;
+}
+
+.down-img #About{
+  margin: 0;
+}
+
+#down-left-img{
+  background-image: url(images/image-about-dark.jpg); 
+}
+
+#down-right-img{
+  background-image: url(images/image-about-light.jpg);  
+}
+
+.angle-img{
+  position: relative;
+  left: 22px;
+  top: 19px;
+}
+
+
+
+:root{
+    --dark_grey:hsl(0, 0%, 63%);
+    --very_dark_grey: hsl(0, 0%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --black:  hsl(0, 0%, 0%);
+    --font_style: 'League Spartan', sans-serif;;
+
+}
